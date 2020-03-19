@@ -53,106 +53,109 @@ table {
 }
 
 html, body {
-	height: 100%;
-	display: inline-block;
-	width: 90%;
-	margin: auto;
+    height: 100%;
     font-family: 'Titillium Web', sans-serif;
 }
 
-h1, h2, h3, h4, h5 {
+h1, h2, h3, h4, h5, h6 {
     font-family: 'Bangers', cursive;
     letter-spacing: 1px;
     margin-bottom: 15px;
 }
 
 /* Your code starts here! */
+.container {
 
-.navigation {
+	width: 900px;
+	margin-left: 40px;
+}
+header nav {
+	display: inline-block;/
+	margin-top: 60px;
+	
+}
+header nav a {
+	margin: 0 20px;
 	color: gray;
+	text-decoration: none;
+}
+header .logoOne{
+	margin-left: 130px;
+	padding-top: 10px;
+}
+
+.Innovation{
+	margin-left: 100px;
+	margin-top: 100px;
+	padding: 70px 0;
 	display: inline-block;
-	word-spacing: 90px;
-	height: 15%;
-	padding-top: 4%;
-	width: 90%;
+	font-size: 60px;
+	font-family: 'Bangers', 'cursive';
 	text-align: center;
+	vertical-align: center;
 }
-.logo{
-	border: 2px solid blue;
-    vertical-align: top;
-    margin: 0% 0% 0% 94%;
-    width: 10%;
-    min-width: 24%;
-}
-.classOne {
-display: inline-block;
-width: 100%;
-height: 100%;
-}
-
-.inov{
-	display: inline-block;
-	width: 50%;
-	margin: auto;
+.getStarted {
+	padding: 5px;
+	font-size: 16px;
 	text-align: center;
+	border: 1px solid black;
 }
 
-#headerGlobe {
-	width: 40%;
-	margin: 5% 0 0 5%;
-
-	
-}
-.globeImage{
+.roundTwo {
+	margin-top: 70px;
+	margin-left: 150px;
 	display: inline-block;
-	width: 50%;
-	margin: 5% 0 0 94%;
-	
+	vertical-align: top;
 }
-header{
-	font-size: 74px;
-	padding-top: 120px;
-	word-wrap: inherit;
-	text-align: center;
-	width: 60%;
+ .features {
+	 width: 445px;
+	 display: inline-block;
+ }
+ .about {
+	 margin-top: 25px;
+	 margin-bottom: 35px;
+	 width: 425px;
+	 display: inline-block;
+ }
+ .container2 {
+	 font-weight: bold;
+	 margin-left: 40px;
+	 width: 900px;
+	 border-top: 1px solid black;
+ }
+ .bottomImage {
+	margin-left: 50px;
 }
-
-.contentClass{
-	display: inline-block;
-	width: 100%;
-	height: 100%;
-}
-.contentOne h1 {
-	display: inline-block;
-	margin: 8% 0% 0 2%;
-	padding-bottom: 1%;
-	padding-top: 3%;
-}
-.contentOne p {
-	width: 33%;
-	margin: 2% 0% 0 0%;
-	padding-bottom: 1%;
-	padding-top: 3%;
-}
-
-.classTwo {
-	width: 100%;
-	height: 100%;
+.servicesTitle {
+	width: 250px;
 	display: inline-block;
 }
-
-.contentTwo h2 {
-	display:inline-block;
-	margin-left: 50%;
-	width: 33%;
-	padding-bottom: 0%;
-	margin-bottom: 1%;
+.productTitle {
+	margin-left: 20px;
+	width: 250px;
+	display: inline-block;
+}
+.visionTitle {
+	margin-left: 20px;
+	width: 250px;
+	display: inline-block;
+}
+.container3 {
+	width: 800px;
+	font-weight: bold;
+	margin-left: 50px;
+	margin-top: 35px;
+	padding-bottom: 35px;
+	margin-bottom: 35px;
+	border-bottom: 1px solid black;
+}
+.contactTitle {
+	font-weight: bold;
+	margin-left: 65px;
 }
 
-.contentTwo p {
-	display:inline-block;
-	margin-left: 50%;
-	width: 33%;
-	padding-bottom: 31%;
-	margin-bottom: 25%;
+footer {
+	font-weight: bold;
+	margin-top: 65px;
+	margin-left: 500px;
 }
